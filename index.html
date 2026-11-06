@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tienda Online</title>
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body>
+
+        <header class="navbar">
+            <div class="logo">EMIZON</div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="carrito.html" class="cart-btn" id="cart-btn">Carrito <span id="cart-count">(0)</span></a>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h1>¡Lo mejor al mejor precio!</h1>
+            <p>¡Encuentra cualquier producto que necesites aquí!</p> 
+        </section>
+        
+        <main class="catalog">
+            <h2>Catálogo</h2>
+            <div class="product-grid">
+
+                <!-- Tarjeta del primer producto -->
+                <article class="product-card">
+                    <img src="img/ps5.jpg" alt="PlayStation 5" class="product-img">
+                    <h3>PlayStation 5</h3>
+                    <p class="price">$499.99</p>
+                    <button class="button-buy">Agregar al Carrito</button>
+                </article>
+
+                <!-- Tarjeta del segundo producto -->
+                <article class="product-card">
+                    <img src="img/airpods.jpg" alt="AirPods PRO" class="product-img">
+                    <h3>AirPods PRO</h3>
+                    <p class="price">$199.99</p>
+                    <button class="button-buy">Agregar al Carrito</button>
+                </article>
+
+                <!-- Tarjeta del tercer producto -->
+                <article class="product-card">
+                    <img src="img/creatina.jpg" alt="Creatina Birdman" class="product-img">
+                    <h3>Creatina - Birdman</h3>
+                    <p class="price">$20.99</p>
+                    <button class="button-buy">Agregar al Carrito</button>
+                </article>
+
+                <!-- Tarjeta del cuarto producto -->
+                <article class="product-card">
+                    <img src="img/onyx.jpg" alt="Camisa de compresión ONYX" class="product-img">
+                    <h3>Camisa de Compresión ONYX</h3>
+                    <p class="price">$49.99</p>
+                    <button class="button-buy">Agregar al Carrito</button>
+                </article>
+
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 GamingShop. Todos los derechos reservados.</p>
+        </footer>
+
+        <div id="toast-container"></div>
+        <script src="app.js"></script>
+    
+    </body>
+</html>
